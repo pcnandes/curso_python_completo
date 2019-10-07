@@ -1,0 +1,29 @@
+#comentario
+'''
+comentario 
+de multiplas linhas
+'''
+
+#help exibe uma ajuda sobre determinado obj
+lista = [1,2,3]
+help(lista)
+
+
+#instalaçao
+#baixar anaconda
+https://www.anaconda.com/distribution/
+
+#permitir execuçao
+chmod +x Anaconda3-2019.07-Linux-x86_64.sh
+
+#executar instalacao
+sudo ./Anaconda3-2019.07-Linux-x86_64.sh
+
+#instalar jupyterlab
+conda install -c conda-forge jupyterlab
+
+#iniciar notebook
+jupyter notebook --version
+
+# em caso de erro de permissao
+sudo chown -R [paulo] /home/paulo/Programas/anaconda3/
