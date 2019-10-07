@@ -27,3 +27,64 @@ jupyter notebook --version
 
 # em caso de erro de permissao
 sudo chown -R [paulo] /home/paulo/Programas/anaconda3/
+
+
+
+**** Atribuição de variáveis
+* nomes de variáveis 
+- nao podem começar com número
+- nao podem ter espaços(use _ )
+- nao pode caracteres especiais ('", <> /? | \ ()! @ # $% ^ & * ~ - +)
+
+
+****Tipos de números:
+Inteiros(int) e Ponto Flutuantes (float)
+
+- divisao de numeros inteiros pode gerar um float
+ex.: (3/2) = 1.5
+
+- potencia
+10**2 = 100
+
+- raiz
+10**0.5 = 10.0
+10**(1/2) = 10.0
+
+**** Strings
+Podem ser definidias com aspas simples e duplas. Normalmente aspas duplas sao usadas quando se tem aspas simples dentro da string e vice versa
+
+# atalhos
+
+\n -> quebra de linha
+\t -> tab no texto
+len('blablabla') -> retorna o tamanho
+
+
+**** Indexação
+s = 'Olá, mundo'
+s => retorna a string
+s[0] => 'O'
+s[2] => 'á'
+s[:] => retorna string completa
+s[2:] => 'á, mundo'
+s[0:2] => 'Olá'
+s[-1] => 'o'
+s[:-2] => 'Olá, mun'
+
+# espaçamentos
+s[::] ou s[::1] => retorna string completa
+s[::2] => retorna a cada dois caracteres ex. 'Oá mno'
+s[::-1] => retorna string invertida
+
+#propriedades da string
+- são imutáveis;
+s = s + ' teste'
+
+# strings permitem alguns operadoes
+s = g
+g*10 => 'ggggggggg'
+
+#metodos embutidos
+s.lower()
+s.split() -> retorna um [] divite a string em elementos individuais (por padrão nos espaços)
+s.split(',') -> divide por ,. 
